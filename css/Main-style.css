@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Luxurious+Script&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap');
+body
+{
+	background-color: aliceblue;
+	font-family:"Roboto","Nunito","Ysabeau","Lexend","Ballet",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #0D0D0D;
+	font-size: 16px
+}
+
+h1
+{
+	font-size: 42px;
+	font-family:"Nunito Sans","Ysabeau","Roboto","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+h2
+{
+	font-size: 32px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+h2{font-size: 40px;color: #D52326}
+h3{font-size: 36px;}
+h4{font-size: 30px}
+h5{font-size: 24px}
+h6{font-size: 16px; font-family:"Nunito Sans"}
+.font-script1
+{
+font-family:"Luxurious Script", cursive;
+}
+.font-script2
+{
+font-family: "Roboto"
+}
+.font-script3
+{
+font-family: "Ysabeau", sans-serif;
+}
+.container
+{
+	width: 80%;
+	margin: auto;
+	
+}
+*{box-sizing: border-box}
+.col-1{width: 8.33%} /* .col-1: 100%/12 phần=8.33%*/
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+[class*="col-"]
+{
+	border: 1px;
+	padding: 16px;
+}
+.row
+{
+	display: flex;
+	flex-wrap: wrap
+}
+.img-100
+{
+width:100%;
+height:auto
+
+}
+.box-center
+{
+	margin: auto
+}
+.text-center{ text-align:center}
+.bg-footer
+{
+	background-color: #9A9A9A;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.text-first{color: dodgerblue}
+.text-primary{color: #D52326}
+.text-secondary{color: #FF7678}
+.text-dark{color: #313131}
+.text-light{color: #EEE}
+.text-body{color: #424141}
+.text-success{color: greenyellow}
+.text-danger{color:red}
+.text-gradient {
+	background-image: linear-gradient(45deg,red,yellow);
+	 -webkit-text-fill-color: transparent;
+	 -webkit-background-clip: text;
+}
+/*màu nền*/
+.bg-primary{background-color: #EB0E13}
+.bg-secondary{background-color: #FFF102}
+.bg-dark{background-color:#000000}
+.bg-light{background: #ddd}
+.bg-white{background: #fff}
+.bg-success{background-color:greenyellow}
+.bg-danger{background-color:red}
+.bg-gradient{background: #00b7ff;
+background: linear-gradient(90deg, rgba(0, 183, 255, 1) 0%, rgba(237, 221, 83, 1) 80%);}
+.box-shadow-1{ box-shadow:5px 5px 10px rgba(0,0,0,0.1)}
+.text-shadow{text-shadow: 4px 4px 8px rgba(0,0,0,0.4);}
+/*Style he thong màu cho nút*/
+a
+{
+	color:cornflowerblue; 
+	text-decoration:none; 
+	font-weight: bold}
+a:hover{ color: yellowgreen;
+}
+.btn-primary{
+	background-color: cornflowerblue;
+	color:#eeeeee;
+	border-radius: 50px; /*bo góc 4 chiều*/
+	padding: 8px 16px;
+	font-weight: 600
+}
+.btn-primary
+{
+ background-color:red;
+ color:#fff;
+}
+.btn-outline-primary {
+	border: 1px solid #EB0E13;
+	color: #EB0E13;
+	border-radius: 50px; /*bo góc 4 chiều*/
+	padding: 8px 16px;
+	font-weight: 600;
+	background: transparent;
+	transition: all 1s;
+}
+.btn-outline-primary:hover
+{
+	background-color:#EB0E13;
+	color: #fff
+}
+.navbar{border-bottom:solid 2px #00FF5C}
+.navbar ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex
+}
+.navbar ul li
+{
+	
+}
+.navbar ul li a
+{
+	padding:8px 16px;
+	background: #00b7ff;
+background: #FD1D1D;
+background: radial-gradient(circle, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	color: #eee;
+	margin: 5px;
+	display: block
+}
+.navbar ul li a:hover
+{
+	background: #020024;
+background: radial-gradient(circle, rgba(2, 0, 36, 1) 23%, rgba(9, 9, 121, 1) 51%);
+}
+.form-control
+{
+	width: 100%;
+	border: #ddd solid 1px; 
+	padding: 8px;
+	border-radius: 40px;
+	margin-top: 8px;
+	margin-bottom: 16px
+}
+label
+{
+margin-left: 4px;
+font-weight: 500;
+}
+
+*{box-sizing: border-box}
+/*div{ border: 1px blue solid}*/
+.container{ width: 80%; margin: auto}
+.w-25 { width: 25%;  padding: 15px}
+.w-33{ width: 33.33%; padding: 15px}
+.w-50 { width: 50%;  padding: 15px}
+.w-66{ width:66.66%; padding: 15px}
+.w-75 { width: 75%; padding: 15px}
+.row{ display: flex; flex-wrap: wrap}
+.img-100{ max-width: 100%; height: auto }
+
+.mx-auto{ margin-left: auto; margin-right: auto}
+
+.trang-shadow{
+    background-color: white;
+    box-shadow:0 0 5px #666;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px; margin-bottom: 20px;
+    height: 100%
+        
+}
+
+#cosoArena a{ color: tomato}
+#cosoArena a:hover{ color: #B97005}
+
+
+
